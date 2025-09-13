@@ -1,0 +1,383 @@
+/* 共通 */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #F5F5F5;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.page-wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+p {
+    line-height: 1.9;
+    letter-spacing: 0.05em;
+}
+
+
+/* ヘッダー */
+header {
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header img {
+    max-width: auto;
+    height: auto;
+    margin-left: 50px;
+}
+
+.nav-pc {
+    font-size: 16px;
+}
+
+.nav-pc ul {
+    display: flex;
+    margin-right: 50px;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-pc a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.nav-pc a:hover {
+    color: #8B0000;
+}
+
+main {
+    margin-bottom: 100px;
+}
+
+/* ページ上部 */
+#main-visual {
+    position: relative;
+    height: auto;
+}
+
+#main-visual img {
+    width: 100%;
+    height: auto;
+}
+
+.main-title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.main-title h1 {
+    font-size: 3rem;
+    letter-spacing: 0.6em;
+}
+
+.main-title p {
+    font-size: 2rem;
+    letter-spacing: 0.4em;
+}
+
+/* トップページ-About */
+#about {
+    margin: 60px 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 12px;
+}
+
+.container img {
+    width: 36px;
+    height: 40px;
+}
+
+.container h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #1A2A40;
+    margin: 0;
+}
+
+.gradation-line-red {
+    width: 170px;
+    height: 4px;
+    margin-left: 0;
+    margin-bottom: 20px;
+    background: linear-gradient(to right, #FF3B3B, #FFFFFF);
+}
+
+.about-layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.about-layout > div:nth-child(1) {
+    position: relative;
+    flex: 1.5;
+}
+
+.about-layout > div:nth-child(1) img {
+    width: 90%;
+    height: auto;
+    margin-top: 150px;
+}
+
+.scene-label {
+    font-family: 'Roboto Mono', monospace;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: -5px;
+    left: 150px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.about-layout > div:nth-child(2) {
+    flex: 1.5;
+    max-width: 600px;
+}
+
+.about-layout p {
+    line-height: 1.7;
+    margin-bottom: 1.2em;
+    text-align: justify;
+    letter-spacing: 0.03em;
+}
+
+/* トップページ-Studios */
+#studios {
+    margin: 60px 20px;
+}
+
+.studios-layout {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.studios-layout > div:nth-child(1) {
+    position: relative;
+    text-align: center;
+}
+
+.studios-layout > div:nth-child(1) img {
+    width: 50%;
+    height: auto;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.studios-layout > div:nth-child(2) {
+    text-align: center;
+}
+.studios-layout h3 {
+    margin: 40px;
+}
+
+#studios .scene-label {
+    left: 420px;
+    bottom: -10px;
+}
+
+#studios .container {
+    justify-content: center;
+    align-items: center;
+}
+
+#studios .gradation-line-red {
+    width: 200px;
+    margin: 0 425px;
+}
+
+#studio-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 50px;
+    gap: 50px;
+}
+
+#studio-links > div {
+    flex: 1;
+    text-align: center;
+}
+
+#studio-links img {
+    width: 100%;
+    height: auto;
+}
+
+.link-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin: 20px;
+    padding: 12px 20px;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.link-button:hover {
+    background-color: rgba(255, 59, 59, 0.6);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 16px rgba(255, 59, 59, 0.4);
+}
+
+.link-button span {
+    display: inline-flex;
+    align-items: center;
+}
+
+/* トップページ-映画のかたち */
+#forms {
+    margin: 60px 20px;
+}
+
+#forms .container {
+    padding-left: 65%;
+}
+
+#forms .container h2 {
+    font-size: 1.8rem;
+}
+
+#forms .gradation-line-red {
+    margin-left: 65%;
+    width: 260px;
+    height: 3px;
+}
+
+.forms-layout {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+.forms-layout > div:nth-child(1) {
+    flex: 1.5;
+    position: relative;
+    text-align: center;
+}
+
+.forms-layout > div:nth-child(1) img {
+    width: 90%;
+    height: auto;
+    margin-top: 60px;
+}
+
+#forms .scene-label {
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4px 8px;
+}
+
+.forms-layout > div:nth-child(2) {
+    flex: 1.5;
+    text-align: center;
+    max-width: 600px;
+}
+
+.forms-layout p {
+    line-height: 1.7;
+    margin-bottom: 1.2em;
+    text-align: justify; /* ← 両端揃えで改行位置を美しく */
+    letter-spacing: 0.03em;
+}
+
+#forms .link-button {
+    display: inline-flex;
+    position: absolute;
+    top: 290px;
+    left: 65%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    padding: 10px px;
+}
+
+#forms .link-button:hover {
+    background-color: rgba(255, 59, 59, 0.6);
+    transform: scale(1.08);
+    box-shadow: 0 0 12px rgba(255, 59, 59, 0.4);
+}
+
+/* フッター */
+footer {
+    background-color: #121212;
+    padding: 40px 20px;
+}
+
+.footer-top {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.footer-top img {
+    height: 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+.footer-bottom .nav-pc ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-bottom .sns-links {
+    display: flex;
+    margin-right: 50px;
+    gap: 24px;
+}
+
+.footer-bottom .sns-links img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-bottom .sns-links img:hover {
+    transform: scale(1.3);
+}
