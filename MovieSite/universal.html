@@ -5,10 +5,17 @@
         <meta charset="utf-8">
         <meta name="description" content="ハリウッドの映画制作会社、ユニバーサル・ピクチャーズについて紹介するページです。">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
         <!-- Twitterカード -->
     </head>
     <body>
+    <div class="page-wrapper">
         <header>
             <img src="images/logotype.svg" alt="ロゴタイプ">
             <!-- pc用ナビ -->
@@ -21,21 +28,23 @@
             </nav>
         </header>
         <main>
-            <article>
+            <article class="center">
                 <section id="main-visual">
                     <div>
                         <img src="images/hollywood-common.png" alt="夕焼けにヤシの木">
-                        <div class="main-title">
+                        <div class="universal-title">
                             <h1>Universal Pictures</h1>
                         </div>
                     </div>
                 </section>
                 <section id="hollywood-history">
-                    <div class="container">
+                    <div class="hollywood-wrapper">
                         <img src="images/film.svg" alt="フィルムリール">
-                        <h2>History of the company</h2>
+                        <div class="title-container">
+                            <h2>History of the company</h2>
+                            <div class="gradation-line-gold"></div>
+                        </div>
                     </div>
-                    <div class="gradation-line-gold"></div>
                     <div>
                         <h3>ジャンルを編み続けるスタジオ</h3>
                         <p>1912年、ユニバーサル・ピクチャーズが誕生すると、 映画は<span class="text-blue bold">“見世物”</span>から<span class="text-blue bold">“物語”</span>へと変わり始めた。 <br>
@@ -49,15 +58,18 @@
                             感覚とスピード、ユーモアとスケールが融合した語りが、世界中に広がっていった。</p>
                         <p>今では映画、アニメ、テーマパーク、配信、グッズまで、ジャンルの届け方は多様でも、 <br>
                             <span class="text-blue">“楽しさ”</span>と<span class="text-blue">“感覚”</span>の根っこは、ずっと変わらない。</p>
-                        <p>ユニバーサル・ピクチャーズは、ただ物語を届けるだけじゃない。 <span class="large-letters bold">ジャンルという言語で、世界とつながる場所なのだ。</span></p>
+                        <p>ユニバーサル・ピクチャーズは、ただ物語を届けるだけじゃない。<br>
+                            <span class="large-letters bold">ジャンルという言語で、世界とつながる場所なのだ。</span></p>
                     </div>
                 </section>
                 <section id="themes-style">
-                    <div class="container">
+                    <div class="hollywood-wrapper">
                         <img src="images/film.svg" alt="フィルムリール">
-                        <h2>Themes & Style</h2>
+                        <div class="title-container">
+                            <h2>Themes & Style</h2>
+                            <div class="gradation-line-gold"></div>
+                        </div>
                     </div>
-                    <div class="gradation-line-gold"></div>
                     <div>
                         <h3>ユニバーサル・ピクチャーズは、ジャンルと感覚を物語に変えるスタジオである。</h3>
                         <p>ユニバーサルの語りは、時代とともに<span class="text-gold underline-gold wide-text">「ジャンル・感覚・スケール」</span>を軸に展開されてきた。 <br>
@@ -73,11 +85,13 @@
                     </div>
                 </section>
                 <section id="film-highlights">
-                    <div class="container">
+                    <div class="hollywood-wrapper">
                         <img src="images/film.svg" alt="フィルムリール">
-                        <h2>Film Highlights</h2>
+                        <div class="title-container">
+                            <h2>Film Highlights</h2>
+                            <div class="gradation-line-gold"></div>
+                        </div>
                     </div>
-                    <div class="gradation-line-gold"></div>
                     <!-- 1900年代 -->
                     <div class="era-1900s">
                         <div class="icon-title-flex">
@@ -92,7 +106,7 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『フランケンシュタイン』（1931）</h4>
-                                    <p>恐怖と孤独が交差する演出。<span class="text-darkred">モンスター映画</span>の出発点。</p>
+                                    <p>恐怖と孤独が交差する演出。<br><span class="text-darkred">モンスター映画</span>の出発点。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『透明人間』（1933）</h4>
@@ -103,11 +117,11 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『バック・トゥ・ザ・フューチャー』（1985）</h4>
-                                    <p>時間と空間を自在に駆け抜ける。<span class="text-blue">スピードと驚き</span>が物語の推進力になる。</p>
+                                    <p>時間と空間を自在に駆け抜ける。<br><span class="text-blue">スピードと驚き</span>が物語の推進力になる。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『ジュラシック・パーク』（1993）</h4>
-                                    <p>恐竜と人間の対峙。<span class="bold">スケールと緊張</span>が感覚を揺さぶる。</p>
+                                    <p>恐竜と人間の対峙。<br><span class="bold">スケールと緊張</span>が感覚を揺さぶる。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">ジャンルの融合：型と感覚が混ざり合う</h3>
@@ -118,7 +132,7 @@
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『永遠に美しく…』（1992）</h4>
-                                    <p>ホラーとコメディの交差点。<span class="text-blue">不死・欲望・皮肉</span>が感覚を揺さぶる。</p>
+                                    <p>ホラーとコメディの交差点。<br>不死・欲望・皮肉が感覚を揺さぶる。</p>
                                 </li>
                             </ul>
                         </div>
@@ -137,29 +151,29 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『ワイルド・スピード』（2001）</h4>
-                                    <p>車と都市が疾走する。スピードと連帯がジャンルの核になる。</p>
+                                    <p>車と都市が疾走する。<br>スピードと連帯がジャンルの核になる。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『キング・コング』（2005）</h4>
-                                    <p>巨大な存在と人間の対峙。<span class="bold">スケールと悲哀</span>が感覚を揺さぶる。</p>
+                                    <p>巨大な存在と人間の対峙。<br><span class="bold">スケールと悲哀</span>が感覚を揺さぶる。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">ジャンルの再構築：恐怖と神話の交差点</h3>
                             <ul>
                                 <li>
                                     <h4 class="text-gold large-letters">『ハムナプトラ2／黄金のピラミッド』（2001）</h4>
-                                    <p>冒険とホラーの融合。<span class="underline-gold">神話・再生・呪い</span>がジャンルを編み直す。</p>
+                                    <p>冒険とホラーの融合。<br><span class="underline-gold">神話・再生・呪い</span>がジャンルを編み直す。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『ヴァン・ヘルシング』（2004）</h4>
-                                    <p>モンスターとアクションの交差点。ジャンルが“狩りと救済”を描く器になる。</p>
+                                    <p>モンスターとアクションの交差点。<br>ジャンルが“狩りと救済”を描く器になる。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">感覚の拡張：音楽と情緒がジャンルを包む</h3>
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『ラブ・アクチュアリー』（2003）</h4>
-                                    <p>群像劇とロマンスの融合。<span class="underline-blue">愛・孤独・再接続</span>がジャンルを横断する。</p>
+                                    <p>群像劇とロマンスの融合。<br>愛・孤独・再接続がジャンルを横断する。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『マンマ・ミーア！』（2008）</h4>
@@ -173,7 +187,7 @@
                         <div class="icon-title-flex">
                             <img src="images/unibersal-banana.svg" alt="バナナのアイコン">
                             <div>
-                                <h3 class="bold">Story Fractures</h3>
+                                <h3 class="bold">The Sensory Shift</h3>
                                 <p class="bold">〜 2010年代｜ユーモアと色彩が感覚の主役になる時代 〜</p>
                             </div>
                         </div>
@@ -182,7 +196,7 @@
                             <ul>
                                 <li>
                                     <h4 class="text-gold large-letters">『怪盗グルーの月泥棒』（2010）</h4>
-                                    <p>悪党と家族の物語。<span class="text-blue">ユーモアと情緒</span>がジャンルを再構成する。</p>
+                                    <p>悪党と家族の物語。<br>ユーモアと情緒がジャンルを再構成する。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『ミニオンズ』（2015）</h4>
@@ -193,7 +207,7 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『SING／シング』（2016）</h4>
-                                    <p>動物たちの歌声が響く。<span class="text-gold">夢・挑戦・再生</span>が音楽とともに描かれる。</p>
+                                    <p>動物たちの歌声が響く。<br><span class="text-gold">夢・挑戦・再生</span>が音楽とともに描かれる。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『ボス・ベイビー』（2018）</h4>
@@ -204,7 +218,7 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『ペット』（2016）</h4>
-                                    <p>留守番中の冒険。<span class="underline-blue">日常・絆・発見</span>が感覚を優しく揺らす。</p>
+                                    <p>留守番中の冒険。<span class="text-green">日常・絆・発見</span>が感覚を優しく揺らす。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『グリンチ』（2018）</h4>
@@ -227,33 +241,33 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『SING／シング：ネクストステージ』（2021）</h4>
-                                    <p>夢と挑戦の続編。<span class="underline-blue">音楽・群像・再生</span>がジャンルを横断する。</p>
+                                    <p>夢と挑戦の続編。<br><span class="text-brown">音楽・群像・再生</span>がジャンルを横断する。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『ミニオンズ フィーバー』（2022）</h4>
-                                    <p>70年代とミニオンの融合。<span class="text-blue">レトロとカオス</span>が感覚を爆発させる。</p>
+                                    <p>70年代とミニオンの融合。<br>レトロとカオスが感覚を爆発させる。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">孤独と再接続：感覚が境界を越える</h3>
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『ドクター・ドリトル』（2020）</h4>
-                                    <p>動物と人間の再接続。<span class="text-blue">自然・孤独・癒し</span>がジャンルを包み込む。</p>
+                                    <p>動物と人間の再接続。<br><span class="text-blue">自然・孤独・癒し</span>がジャンルを包み込む。</p>
                                 </li>
                                 <li>
-                                    <h4 class="bold large-letters">『バッドガイズ』（2022）</h4>
-                                    <p>悪党たちの再生劇。テンポ・スタイル・変化がジャンルを再構成する。</p>
+                                    <h4 class="text-darkred large-letters">『バッドガイズ』（2022）</h4>
+                                    <p>悪党たちの再生劇。<br>テンポ・スタイル・変化がジャンルを再構成する。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">スピードとスケール：感覚が世界を駆け抜ける</h3>
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『ジュラシック・ワールド／新たなる支配者』（2022）</h4>
-                                    <p>恐竜と都市が交差する。<span class="underline-blue">自然・混乱・共存</span>が感覚を揺さぶる。</p>
+                                    <p>恐竜と都市が交差する。<br>自然・混乱・共存が感覚を揺さぶる。</p>
                                 </li>
                                 <li>
-                                    <h4 class="bold large-letters">『ワイルド・スピード／ファイヤーブースト』（2023）</h4>
-                                    <p><span class="text-darkred">炎</span>と都市の衝突。<span class="underline-gold">破壊と再生</span>が感覚を揺さぶる。</p>
+                                    <h4 class="text-darkred large-letters">『ワイルド・スピード／ファイヤーブースト』（2023）</h4>
+                                    <p><span class="text-darkred">炎</span>と都市の衝突。<br>破壊と再生が感覚を揺さぶる。</p>
                                 </li>
                             </ul>
                         </div>
@@ -279,5 +293,6 @@
                 </div>
             </div>
         </footer>
+    </div>
     </body>
 </html>

@@ -3,12 +3,19 @@
     <head>
         <title>Studios</title>
         <meta charset="utf-8">
-        <meta name="description" content="ハリウッドと日本の映画スタジオの成り立ちや作品を紹介します。">
+        <meta name="description" content="映画スタジオの特徴と物語表現の違いを、ハリウッドと日本の視点から比較します。">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
         <!-- Twitterカード -->
     </head>
     <body>
+    <div class="page-wrapper">
         <header>
             <img src="images/logotype.svg" alt="ロゴタイプ">
             <!-- pc用ナビ -->
@@ -26,37 +33,31 @@
                 <section id="main-visual">
                     <div>
                         <img src="images/studios.png" alt="スタジオの撮影セット">
-                        <div class="main-title">
+                        <div class="studio-title">
                             <h1>Studios</h1>
                         </div>
                     </div>
                 </section>
-                <!-- ボタンとグリッド -->
+                <!-- ボタン -->
                 <section id="studio-section">
-                    <div class="studio-buttons">
-                        <button type="button" class="btn-hollywood">HOLLYWOOD</button>
-                        <button type="button" class="btn-japan">JAPAN</button>
-                    </div>
-                    <div id="hollywood-studio" class="studio-group active">
-                        <div class="studio-card">
-                            <a href="disney.html">DISNEY</a>
+                    <div class="tabs">
+                        <!-- ラジオボタン -->
+                        <input type="radio" id="hollywood" name="studio-tab" checked hidden>
+                        <input type="radio" id="japan" name="studio-tab" hidden>
+                        <!-- ラベル -->
+                        <div class="tab-labels">
+                            <label class="tab-item hollywood" for="hollywood">🇺🇸 HOLLYWOOD</label>
+                            <label class="tab-item japan" for="japan">🇯🇵 JAPAN</label>
                         </div>
-                        <div class="studio-card">
-                            <a href="warner.html">WARNER BROS</a>
+                        <div class="tab-content" id="hollywood-content">
+                            <a href="disney.html" class="studio-card">DISNEY</a>
+                            <a href="warner.html" class="studio-card">WARNER BROS</a>
+                            <a href="universal.html" class="studio-card">UNIVERSAL PICTURES</a>
                         </div>
-                        <div class="studio-card">
-                            <a href="universal.html">UNIVERSAL PICTURES</a>
-                        </div>
-                    </div>
-                    <div id="japan-studio" class="studio-group">
-                        <div class="studio-card">
-                            <a href="toho.html">東宝</a>
-                        </div>
-                        <div class="studio-card">
-                            <a href="toei.html">東映</a>
-                        </div>
-                        <div class="studio-card">
-                            <a href="shochiku.html">松竹</a>
+                        <div class="tab-content" id="japan-content">
+                            <a href="toho.html" class="studio-card">東宝</a>
+                            <a href="toei.html" class="studio-card">東映</a>
+                            <a href="shochiku.html" class="studio-card">松竹</a>
                         </div>
                     </div>
                 </section>
@@ -80,5 +81,6 @@
                 </div>
             </div>
         </footer>
+    </div>
     </body>
 </html>

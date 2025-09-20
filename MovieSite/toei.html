@@ -5,10 +5,17 @@
         <meta charset="utf-8">
         <meta name="description" content="日本の映画制作会社、東映について紹介するページです。">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
         <!-- Twitterカード -->
     </head>
     <body>
+    <div class="page-wrapper">
         <header>
             <img src="images/logotype.svg" alt="ロゴタイプ">
             <!-- pc用ナビ -->
@@ -21,26 +28,27 @@
             </nav>
         </header>
         <main>
-            <article>
+            <article class="center">
                 <section id="main-visual">
                     <div>
                         <img src="images/japan-common.png" alt="障子から見える景色">
-                        <div class="main-title">
+                        <div class="toei-title">
                             <h1>東映</h1>
                         </div>
                     </div>
                 </section>
                 <section id="japan-history">
-                    <div class="container">
+                    <div class="japan-wrapper">
                         <img src="images/japan-torii.svg" alt="鳥居">
-                        <h2>会社の歩み</h2>
-                    </div>
-                    <div class="gradation-line-red"></div>
+                        <div class="title-container">
+                            <h2>会社の歩み</h2>
+                            <div class="gradation-line-red"></div>
+                        </div>
                     </div>
                     <div>
                         <h3>「大衆とともに歩む映画」</h3>
                         <p>1951年、東映株式会社が設立。 <br>
-                            戦後の混乱期にあって、<span class="text-blue">庶民の心に寄り添う“娯楽”</span>を届けることから、東映の物語は始まった。</p>
+                            戦後の混乱期にあって、庶民の心に寄り添う“娯楽”を届けることから、東映の物語は始まった。</p>
                         <p><span class="small-letters">時代劇、任侠映画、アクション、アニメ</span>— 東映はジャンルの枠を越えて、<br>
                             <span class="text-blue bold">“大衆の感情”</span>を映し出す映画を作り続けてきた。</p>
                         <p><span class="small-letters">『仁義なき戦い』『仮面ライダー』『ドラゴンボール』『プリキュア』</span>— 時代とともに変化しながらも、<br>
@@ -50,33 +58,36 @@
                         <p>今では<span class="underline-blue">アニメ、特撮、時代劇、ヒーロー、少女向け</span>まで、ジャンルは多様でも、<br>
                             “情熱”と“共感”の根っこは、ずっと変わらない。</p>
                         <p>東映は、ただ映画を作るだけじゃない。 <br>
-                            時代の空気を映し、大衆の心に寄り添う<span class="large-letters">“熱い語り”を紡ぎ続けるスタジオなのだ。</span></p>
+                            時代の空気を映し、大衆の心に寄り添う<span class="bold large-letters">“熱い語り”を紡ぎ続けるスタジオなのだ。</span></p>
                     </div>
                 </section>
                 <section id="japan-themes">
-                    <div class="container">
+                    <div class="japan-wrapper">
                         <img src="images/japan-torii.svg" alt="鳥居">
-                        <h2>演出と世界観</h2>
+                        <div class="title-container">
+                            <h2>演出と世界観</h2>
+                            <div class="gradation-line-red"></div>
+                        </div>
                     </div>
-                    <div class="gradation-line-red"></div>
                     <div>
                         <h3>東映は、熱さと様式美を物語に宿すスタジオである。</h3>
-                        <p>東映の作品は、いつの時代も<span class="underline-gold text-gold">「正義・情熱・大衆性」</span>を軸に展開されてきた。<br>
+                        <p>東映の作品は、いつの時代も<span class="underline-gold text-gold wide-text">「正義・情熱・大衆性」</span>を軸に展開されてきた。<br>
                             時代劇や任侠映画では、<span class="text-darkred">様式美と葛藤</span>が交差し、<span class="small-letters">市川右太衛門、高倉健、菅原文太</span>らが“熱い語り”を体現してきた。</p>
                         <p>やがて、テレビと劇場を横断する特撮・アニメのジャンルでは、<br>
-                            <span class="underline-blue">“変身”と“連帯”</span>をテーマに、<span class="text-blue">『仮面ライダー』『スーパー戦隊』『プリキュア』</span>など、<br>
+                            <span class="underline-blue">“変身”と“連帯”</span>をテーマに、『仮面ライダー』『スーパー戦隊』『プリキュア』など、<br>
                             世代を超えて愛されるヒーロー像が確立されていった。</p>
                         <p>その語りの幅は、任侠・時代劇・特撮・アニメ・少女向けといったジャンルを横断しながらも、<br>
                             根底にあるのは、<span class="bold">“人間の熱さ”と“正義のかたち”</span>へのこだわり。<br>
-                            <span class="text-blue">様式と感情、闘いと絆</span>—その両極を自在に操る<span class="bold">演出美</span>が、東映の<span class="bold">世界観</span>を支えている。</p>
+                            <span class="text-blue">様式と感情、闘いと絆</span>—その両極を自在に操る演出美が、東映の世界観を支えている。</p>
                     </div>
                 </section>
                 <section id="japan-film-highlights">
-                    <div class="container">
+                    <div class="japan-wrapper">
                         <img src="images/japan-torii.svg" alt="鳥居">
-                        <h2>物語の軌跡</h2>
-                    </div>
-                    <div class="gradation-line-red"></div>
+                        <div class="title-container">
+                            <h2>物語の軌跡</h2>
+                            <div class="gradation-line-red"></div>
+                        </div>
                     </div>
                     <!-- 1900年代 -->
                     <div class="era-1900s">
@@ -92,33 +103,33 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『昭和残侠伝』（1965）</h4>
-                                    <p>高倉健らが体現する<span class="text-darkred">“義理と人情”</span>の美学。<span class="bold">様式美</span>が観客の心を揺さぶる。</p>
+                                    <p>高倉健らが体現する“義理と人情”の美学。<br>様式美が観客の心を揺さぶる。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『仁義なき戦い』（1973）</h4>
-                                    <p>深作欣二監督による<span class="text-blue">“実録路線”</span>の代表作。暴力と構造が<span class="text-darkred">リアリズム</span>として語りの主役になる。</p>
+                                    <p>深作欣二監督による<span class="text-darkred">“実録路線”</span>の代表作。<br>暴力と構造が<span class="text-darkred">リアリズム</span>として語りの主役になる。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">特撮と変身の原型：ヒーロー像の確立</h3>
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『仮面ライダー対ショッカー』（1972）</h4>
-                                    <p>劇場版第1作。改造人間の孤独と使命。<span class="text-blue">“変身”</span>が正義のかたちを変える。</p>
+                                    <p>劇場版第1作。改造人間の孤独と使命。<br><span class="text-brown">“変身”</span>が正義のかたちを変える。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『秘密戦隊ゴレンジャー 爆弾ハリケーン』（1976）</h4>
-                                    <p>劇場版第2作。色と連帯の戦隊美学。<span class="underline-blue">“5人で戦う”</span>という構造が定着する。</p>
+                                    <p>劇場版第2作。<br>色と連帯の戦隊美学。“5人で戦う”という構造が定着する。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">アニメと感情の拡張：ジャンルの多様化</h3>
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『銀河鉄道999』（1979）</h4>
-                                    <p>旅と別れの叙事詩。<span class="text-blue">“感情と哲学”</span>がアニメに深度を与える。</p>
+                                    <p>旅と別れの叙事詩。“感情と哲学”がアニメに深度を与える。</p>
                                 </li>
                                 <li>
                                     <h4 class="text-gold large-letters">『ドラゴンボール 神龍の伝説』（1986）</h4>
-                                    <p>劇場版第1作。闘いと成長の連続。<span class="text-gold bold">“力と友情”</span>がジャンルの核になる。</p>
+                                    <p>劇場版第1作。闘いと成長の連続。<br>“力と友情”がジャンルの核になる。</p>
                                 </li>
                             </ul>
                         </div>
@@ -128,7 +139,7 @@
                         <div class="icon-title-flex">
                             <img src="images/toei-slate.svg" alt="カチンコのアイコン">
                             <div>
-                                <h3 class="bold">映画の成熟と再構築</h3>
+                                <h3 class="bold">映画の躍動と構造化</h3>
                                 <p class="bold">〜 2000年代｜記憶・使命・構造・誇りの交錯 〜</p>
                             </div>
                         </div>
@@ -137,33 +148,33 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『バトル・ロワイアル』（2000）</h4>
-                                    <p>極限状況で揺れる人間性。<span class="text-darkred">“生存と選択”</span>が社会の闇を映し出す。</p>
+                                    <p>極限状況で揺れる人間性。<br><span class="text-darkred">“生存と選択”</span>が社会の闇を映し出す。</p>
                                 </li>
                                 <li>
                                     <h4 class="text-darkred large-letters">『男たちの大和／YAMATO』（2005）</h4>
-                                    <p>戦争と記憶が交差する。<span class="text-blue">“犠牲と誇り”</span>が語りの核になる。</p>
+                                    <p>戦争と記憶が交差する。<br>“犠牲と誇り”が語りの核になる。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">使命と記憶の再定義：ヒーローと時間の物語</h3>
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『劇場版 仮面ライダー電王 俺、誕生！』（2007）</h4>
-                                    <p>時間と記憶の旅路。“過去と未来”が使命を問い直す。</p>
+                                    <p>時間と記憶の旅路。<br>“過去と未来”が使命を問い直す。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『ONE PIECE FILM STRONG WORLD』（2009）</h4>
-                                    <p>尾田栄一郎が描く劇場オリジナル。<span class="text-gold">“仲間と誇り”</span>が物語の核になる。</p>
+                                    <p>尾田栄一郎が描く。<br>劇場オリジナル。<span class="text-gold">“仲間と誇り”</span>が物語の核になる。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">構造と連帯の交錯：都市と人間の群像劇</h3>
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『大奥』（2006）</h4>
-                                    <p>格式と欲望が交錯する女の世界。<span class="text-darkred">“抑圧と選択”</span>が美と権力を揺さぶる。</p>
+                                    <p>格式と欲望が交錯する女の世界。“抑圧と選択”>が美と権力を揺さぶる。</p>
                                 </li>
                                 <li>
-                                    <h4 class="bold large-letters">『相棒 -劇場版- 絶体絶命！ 42.195km東京ビッグシティマラソン』（2008）</h4>
-                                    <p>都市の緊張と論理の交錯。<span class="text-blue">“構造と信念”</span>が群像劇を支える。</p>
+                                    <h4 class="bold large-letters">『相棒 -劇場版- 絶体絶命！ 42.195km東京ビッグシティマラソン』（2008）</h4><br>
+                                    <p>都市の緊張と論理の交錯。“構造と信念”が群像劇を支える。</p>
                                 </li>
                             </ul>
                         </div>
@@ -181,12 +192,12 @@
                             <h3 class="group-name">都市と記憶の交錯：孤独・皮肉・郷土の語り</h3>
                             <ul>
                                 <li>
-                                    <h4 class="text-darkred large-letters">『探偵はBARにいる』（2011）</h4>
-                                    <p>札幌の夜に潜む謎と皮肉。<span class="text-blue">“孤独と友情”</span>が都市の記憶を揺らす。</p>
+                                    <h4 class="large-letters">『探偵はBARにいる』（2011）</h4>
+                                    <p>札幌の夜に潜む謎と皮肉。<br>“孤独と友情”が都市の記憶を揺らす。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『さらば あぶない刑事』（2016）</h4>
-                                    <p>引退と信念が交差する。<span class="text-gold">“都市の記憶”</span>が語りの余韻を残す。</p>
+                                    <p>引退と信念が交差する。<br>“都市の記憶”が語りの余韻を残す。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『翔んで埼玉』（2019）</h4>
@@ -196,8 +207,8 @@
                             <h3 class="group-name">力と倫理の再定義：暴力・神話・信念の臨界</h3>
                             <ul>
                                 <li>
-                                    <h4 class="bold large-letters">『ドラゴンボールZ 復活の「F」』（2015）</h4>
-                                    <p>フリーザ復活と神の力。<span class="text-gold">“力と再定義”</span>がジャンルを更新する。</p>
+                                    <h4 class="text-gold large-letters">『ドラゴンボールZ 復活の「F」』（2015）</h4>
+                                    <p>フリーザ復活と神の力。<br>“力と再定義”がジャンルを更新する。</p>
                                 </li>
                                 <li>
                                     <h4 class="text-darkred large-letters">『虎狼の血』（2018）</h4>
@@ -227,33 +238,33 @@
                             <ul>
                                 <li>
                                     <h4 class="text-darkred bold large-letters">『ONE PIECE FILM RED』（2022）</h4>
-                                    <p><span class="text-darkred">歌と自由が交差する。が物語の重心を揺らす。</span></p>
+                                    <p><span class="text-darkred">歌と自由が交差することで、<br>物語の重心が揺らぎ始める。</span></p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『THE FIRST SLAM DUNK』（2022）</h4>
-                                    <p>兄弟の記憶と闘志が交錯する。<span class="underline-gold">“過去との対峙”</span>が青春を再定義する。</p>
+                                    <p>兄弟の記憶と闘志が交錯する。<br><span class="underline-gold">“過去との対峙”</span>が青春を再定義する。</p>
                                 </li>
                                 <li>
-                                    <h4 class="text-darkred large-letters">『シン・仮面ライダー』（2023）</h4>
-                                    <p>孤独と使命の再構築。“変身の哲学”がヒーロー像を揺さぶる。</p>
+                                    <h4 class="bold large-letters">『シン・仮面ライダー』（2023）</h4>
+                                    <p>孤独と使命の再構築。 <br>“変身の哲学”がヒーロー像を揺さぶる。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">歴史と感情の再構築：叙事詩と家族の交差点</h3>
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『いのちの停車場』（2021）</h4>
-                                    <p>終末医療の現場に揺れる選択。<span class="underline-blue">“生と死の境界”</span>が家族のかたちを問い直す。</p>
+                                    <p>終末医療の現場に揺れる選択。<br><span class="underline-blue">“生と死の境界”</span>が家族のかたちを問い直す。</p>
                                 </li>
                                 <li>
-                                    <h4 class="bold large-letters">『レジェンド＆バタフライ』（2023）</h4>
-                                    <p>信長と濃姫の夫婦譚。<span class="text-gold">“権力と愛”</span>が時代劇に感情の深度を与える。</p>
+                                    <h4 class="text-brown large-letters">『レジェンド＆バタフライ』（2023）</h4>
+                                    <p>信長と濃姫の夫婦譚。<br>“権力と愛”が時代劇に感情の深度を与える。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">虚構と現実の臨界点：芸能と感情の設計</h3>
                             <ul>
                                 <li>
-                                    <h4 class="text-blue bold large-letters">『【推しの子】The Final Act』（2024）</h4>
-                                    <p>転生と復讐のアイドル譚。<span class="text-blue">“虚構と真実”</span>が感情の設計図になる。</p>
+                                    <h4 class="bold large-letters">『【推しの子】The Final Act』（2024）</h4>
+                                    <p>転生と復讐のアイドル譚。<br>“虚構と真実”が感情の設計図になる。</p>
                                 </li>
                             </ul>
                         </div>
@@ -279,5 +290,6 @@
                 </div>
             </div>
         </footer>
+    </div>
     </body>
 </html>

@@ -5,11 +5,18 @@
         <meta charset="utf-8">
         <meta name="description" content="日本の映画制作会社、松竹について紹介するページです。">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
 
         <!-- Twitterカード -->
     </head>
     <body>
+    <div class="page-wrapper">
         <header>
             <img src="images/logotype.svg" alt="ロゴタイプ">
             <!-- pc用ナビ -->
@@ -22,25 +29,27 @@
             </nav>
         </header>
         <main>
-            <article>
+            <article class="center">
                 <section id="main-visual">
                     <div>
                         <img src="images/japan-common.png" alt="障子から見える景色">
-                        <div class="main-title">
+                        <div class="shochiku-title">
                             <h1>松竹</h1>
                         </div>
                     </div>
                 </section>
                 <section id="japan-history">
-                    <div class="container">
+                    <div class="japan-wrapper">
                         <img src="images/japan-torii.svg" alt="鳥居">
-                        <h2>会社の歩み</h2>
+                        <div class="title-container">
+                            <h2>会社の歩み</h2>
+                            <div class="gradation-line-red"></div>
+                        </div>
                     </div>
-                    <div class="gradation-line-red"></div>
                     <div>
                         <h3>「生活と感情を映す映画」</h3>
                         <p>1920年、松竹キネマ合名社が創立。<br>
-                            演劇の興行会社から始まり、<span class="text-blue">庶民の日常と感情</span>を描く“現代劇”で映画界に進出した。</p>
+                            演劇の興行会社から始まり、庶民の日常と感情を描く“現代劇”で映画界に進出した。</p>
                         <p><span class="small-letters">ホームドラマ、人情喜劇、文芸映画</span>— 松竹は“生活のリアリズム”を軸に、<br>
                             <span class="text-blue bold">“小市民の哀歓”</span>を丁寧に描いてきた。</p>
                         <p><span class="small-letters">『東京物語』『男はつらいよ』『釣りバカ日誌』</span>— 時代とともに変化しながらも、<br>
@@ -50,35 +59,38 @@
                         <p>今では<span class="underline-blue">文芸、現代劇、家族、喜劇、舞台</span>まで、ジャンルは多様でも、<br>
                             “静かな感情”と“生活の美学”は、揺るがない</p>
                         <p>松竹は、ただ映画を作るだけじゃない。<br>
-                            日本人の感覚に寄り添い、<span class="large-letters">“暮らしの中の語り”を紡ぎ続けるスタジオなのだ。</span></p>
+                            日本人の感覚に寄り添い、<span class="bold large-letters">“暮らしの中の語り”を紡ぎ続けるスタジオなのだ。</span></p>
                     </div>
                 </section>
                 <section id="japan-themes">
-                    <div class="container">
+                    <div class="japan-wrapper">
                         <img src="images/japan-torii.svg" alt="鳥居">
-                        <h2>演出と世界観</h2>
-                    </div>
-                    <div class="gradation-line-red"></div>
+                        <div class="title-container">
+                            <h2>演出と世界観</h2>
+                            <div class="gradation-line-red"></div>
+                        </div>
                     </div>
                     <div>
                         <h3>松竹は、静けさと生活美を物語に宿すスタジオである。</h3>
-                        <p>松竹の作品は、いつの時代も<span class="underline-gold text-gold">「家族・感情・日常性」</span>を軸に展開されてきた。<br>
-                            現代劇や文芸映画では、<span class="text-darkred">静かな演出と機微</span>が交差し、<br>
+                        <p>松竹の作品は、いつの時代も<span class="underline-gold text-gold wide-text">「家族・感情・日常性」</span>を軸に展開されてきた。<br>
+                            現代劇や文芸映画では、静かな演出と機微が交差し、<br>
                             <span class="small-letters">小津安二郎、山田洋次、周防正行</span>らが“暮らしの語り”を紡いできた。</p>
                         <p>やがて、舞台と映画を横断する歌舞伎・ホームドラマのジャンルでは、<br>
-                            <span class="underline-blue">“継承”と“家族”</span>をテーマに、<span class="text-blue">『男はつらいよ』『釣りバカ日誌』『家族はつらいよ』</span>など、<br>
+                            <span class="underline-blue">“継承”と“家族”</span>をテーマに、『男はつらいよ』『釣りバカ日誌』『家族はつらいよ』など、<br>
                             日本人の感覚に寄り添う物語が確立されていった。</p>
                         <p>その語りの幅は、<span class="small-letters">文芸・現代劇・家族・舞台・喜劇</span>といったジャンルを横断しながらも、<br>
                             根底にあるのは、<span class="bold">“人間の機微”と“暮らしのかたち”</span>へのこだわり。<br>
-                            <span class="text-blue">静けさと感情、継承と絆</span>—その両極を丁寧に編み込む<span class="bold">演出美</span>が、松竹の<span class="bold">世界観</span>を支えている。</p>
+                            <span class="text-blue">静けさと感情、継承と絆</span>—その両極を丁寧に編み込む演出美が、松竹の世界観を支えている。</p>
                     </div>
                 </section>
                 <section id="japan-film-highlights">
-                    <div class="container">
+                    <div class="japan-wrapper">
                         <img src="images/japan-torii.svg" alt="鳥居">
-                        <h2>物語の軌跡</h2>
+                        <div class="title-container">
+                            <h2>物語の軌跡</h2>
+                            <div class="gradation-line-red"></div>
+                        </div>
                     </div>
-                    <div class="gradation-line-red"></div>
                     <!-- 1900年代 -->
                     <div class="era-1900s">
                         <div class="icon-title-flex">
@@ -93,33 +105,33 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『晩春』（1949）</h4>
-                                    <p>父娘の静かな別れ。<span class="text-blue">“機微と沈黙”</span>が感情の深度を生む。</p>
+                                    <p>父娘の静かな別れ。“機微と沈黙”が感情の深度を生む。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『東京物語』（1953）</h4>
-                                    <p>老夫婦と家族の距離。<span class="text-blue">“生活と喪失”</span>が語りの核になる。</p>
+                                    <p>老夫婦と家族の距離。“生活と喪失”が語りの核になる。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">家族と日常の定着：庶民の感情が物語を支える</h3>
                             <ul>
                                 <li>
-                                    <h4 class="bold large-letters">『男はつらいよ』（1969）</h4>
+                                    <h4 class="text-gold bold large-letters">『男はつらいよ』（1969）</h4>
                                     <p>寅さんの旅と人情。<span class="text-blue">“家族と庶民”</span>が日本人の感覚に寄り添う。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『釣りバカ日誌』（1988）</h4>
-                                    <p>会社員と社長の友情喜劇。<span class="text-blue">“日常と笑い”</span>が生活の美学を支える。</p>
+                                    <p>会社員と社長の友情喜劇。<br><span class="text-blue">“日常と笑い”</span>が生活の美学を支える。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">伝統と様式の継承：時代劇に宿る感情の深度</h3>
                             <ul>
                                 <li>
-                                    <h4 class="bold large-letters">『座頭市』（1989）</h4>
-                                    <p>盲目の侠客が歩む孤独と正義。<span class="text-darkred">“様式と哀しみ”</span>が語りの余韻を残す。</p>
+                                    <h4 class="text-darkred bold large-letters">『座頭市』（1989）</h4>
+                                    <p>盲目の侠客が歩む孤独と正義。“様式と哀しみ”>が語りの余韻を残す。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『鬼平犯科帳』（1995）</h4>
-                                    <p>火付盗賊改方・長谷川平蔵の裁き。<span class="underline-blue">“義と情”</span>が時代劇に人間味を与える。</p>
+                                    <p>火付盗賊改方・長谷川平蔵の裁き。<br>“義と情”が時代劇に人間味を与える。</p>
                                 </li>
                             </ul>
                         </div>
@@ -137,34 +149,34 @@
                             <h3 class="group-name">家族と死生観の語り：静けさが感情を包み込む</h3>
                             <ul>
                                 <li>
-                                    <h4 class="bold large-letters">『東京タワー オカンとボクと、時々、オトン』（2007）</h4>
+                                    <h4 class="bold large-letters">『東京タワー オカンとボクと、時々、オトン』（2007）</h4><br>
                                     <p>母との記憶が語りを導く。<span class="text-blue">“家族と庶民”</span>が感情の核になる。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『おくりびと』（2008）</h4>
-                                    <p>納棺師の仕事を通して描かれる命の尊厳。<span class="underline-blue">“生と死の境界”</span>が静かな余韻を残す。</p>
+                                    <p>納棺師の仕事を通して描かれる命の尊厳。<br><span class="underline-blue">“生と死の境界”</span>が静かな余韻を残す。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">様式と国家の葛藤：誇りと使命が交差する</h3>
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『亡国のイージス』（2005）</h4>
-                                    <p>国家と個人の使命が衝突する。“葛藤と選択”が社会派の語りを支える。</p>
+                                    <p>国家と個人の使命が衝突する。<br>“葛藤と選択”が社会派の語りを支える。</p>
                                 </li>
                                 <li>
-                                    <h4 class="bold large-letters">『武士の一分』（2006）</h4>
-                                    <p>盲目の武士が守る誇り。<span class="text-darkred">“様式と愛”</span>が時代劇に深度を与える。</p>
+                                    <h4 class="text-darkred bold large-letters">『武士の一分』（2006）</h4>
+                                    <p>盲目の武士が守る誇り。<br>“様式と愛”が時代劇に深度を与える。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">幻想と青春の再生：挑戦と継承が語りを導く</h3>
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『妖怪大戦争』（2005）</h4>
-                                    <p>妖怪たちの継承と闘い。<span class="text-blue">“幻想と子ども”</span>が民俗の語りを再構築する。</p>
+                                    <p>妖怪たちの継承と闘い。<br>“幻想と子ども”>が民俗の語りを再構築する。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold text-green large-letters">『風が強く吹いている』（2009）</h4>
-                                    <p>箱根駅伝を目指す若者たち。<span class="text-gold">“挑戦と連帯”</span>が青春の語りを支える。</p>
+                                    <p>箱根駅伝を目指す若者たち。<br>“挑戦と連帯”が青春の語りを支える。</p>
                                 </li>
                             </ul>
                         </div>
@@ -187,7 +199,7 @@
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『こんな夜更けにバナナかよ 愛しき実話』（2018）</h4>
-                                    <p>身体の自由と感情の尊厳。<span class="text-gold">“共感と挑戦”</span>が語りの幅を広げる。</p>
+                                    <p>身体の自由と感情の尊厳。<br>“共感と挑戦”が語りの幅を広げる。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">言葉と知性の再定義：静かな情熱が語りを支える</h3>
@@ -204,8 +216,8 @@
                             <h3 class="group-name">社会と誇りの交錯：構造と感情が語りを導く</h3>
                             <ul>
                                 <li>
-                                    <h4 class="bold large-letters">『超高速！参勤交代』（2014）</h4>
-                                    <p>庶民の逆転劇。<span class="text-blue">“誇りとユーモア”</span>が時代劇に新たな風を吹き込む。</p>
+                                    <h4 class="text-brown bold large-letters">『超高速！参勤交代』（2014）</h4>
+                                    <p>庶民の逆転劇。<br>“誇りとユーモア”が時代劇に新たな風を吹き込む。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『空飛ぶタイヤ』（2018）</h4>
@@ -239,22 +251,22 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『キネマの神様』（2021）</h4>
-                                    <p>映画と家族の記憶。<span class="text-blue">“老いと継承”</span>が語りの器を照らす。</p>
+                                    <p>映画と家族の記憶。“老いと継承”が語りの器を照らす。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『366日』（2025）</h4>
-                                    <p>楽曲に宿る感情の軌跡。<span class="text-gold">“時間と純愛”</span>が語りの余韻を紡ぐ。</p>
+                                    <p>楽曲に宿る感情の軌跡。“時間と純愛”が語りの余韻を紡ぐ。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">社会と感情の臨界点：使命と別れの叙事詩</h3>
                             <ul>
                                 <li>
-                                    <h4 class="text-blue bold large-letters">『Fukushima 50』（2020）</h4>
-                                    <p>原発事故の現場に宿る選択。<span class="text-gold">“使命と記憶”</span>が社会の語りを支える。</p>
+                                    <h4 class="text-brown bold large-letters">『Fukushima 50』（2020）</h4>
+                                    <p>原発事故の現場に宿る選択。<br>“使命と記憶”が社会の語りを支える。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『あの花が咲く丘で、君とまた出会えたら。』（2023）</h4>
-                                    <p>戦争と再会の純愛譚。<span class="text-blue">“時代と感情”</span>が若者の語りを導く。</p>
+                                    <p>戦争と再会の純愛譚。<br><span class="text-blue">“時代と感情”</span>が若者の語りを導く。</p>
                                 </li>
                             </ul>
                         </div>
@@ -280,5 +292,6 @@
                 </div>
             </div>
         </footer>
+    </div>
     </body>
 </html>

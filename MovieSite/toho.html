@@ -5,10 +5,17 @@
         <meta charset="utf-8">
         <meta name="description" content="日本の映画制作会社、東宝について紹介するページです。">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
         <!-- Twitterカード -->
     </head>
     <body>
+    <div class="page-wrapper">
         <header>
             <img src="images/logotype.svg" alt="ロゴタイプ">
             <!-- pc用ナビ -->
@@ -21,21 +28,23 @@
             </nav>
         </header>
         <main>
-            <article>
+            <article class="center">
                 <section id="main-visual">
                     <div>
                         <img src="images/japan-common.png" alt="障子から見える景色">
-                        <div class="main-title">
+                        <div class="toho-title">
                             <h1>東宝</h1>
                         </div>
                     </div>
                 </section>
                 <section id="japan-history">
-                    <div class="container">
+                    <div class="japan-wrapper">
                         <img src="images/japan-torii.svg" alt="鳥居">
-                        <h2>会社の歩み</h2>
+                        <div class="title-container">
+                            <h2>会社の歩み</h2>
+                            <div class="gradation-line-red"></div>
+                        </div>
                     </div>
-                    <div class="gradation-line-red"></div>
                     <div>
                         <h3>「物語を生み続ける舞台」</h3>
                         <p>1932年、東京宝塚劇場の設立から、東宝の物語は始まった。<br>
@@ -46,35 +55,39 @@
                             東宝のスタジオから数々の傑作を生み出し、 日本映画は国境を越えて、<span class="bold">世界の映画史に刻まれていった。</span></p>
                         <p>そして現代。 <span class="small-letters">シネマコンプレックス、アニメーション、舞台演劇、配信作品</span>— <br>
                             届け方は変わっても、<span class="bold text-gold">“物語を生み出す力”</span>は変わらない。</p>
-                        <p>東宝は、ただ映画を作るだけじゃない。 観客の心に残る<span class="text-blue">“体験”</span>を、<span class="large-letters bold">時代を超えて紡ぎ続ける舞台なのだ。</span></p>
+                        <p>東宝は、ただ映画を作るだけじゃない。<br>観客の心に残る"体験”を、<span class="large-letters bold">時代を超えて紡ぎ続ける舞台なのだ。</span></p>
                     </div>
                 </section>
                 <section id="japan-themes">
-                    <div class="container">
+                    <div class="japan-wrapper">
                         <img src="images/japan-torii.svg" alt="鳥居">
-                        <h2>演出と世界観</h2>
+                        <div class="title-container">
+                            <h2>演出と世界観</h2>
+                            <div class="gradation-line-red"></div>
+                        </div>
                     </div>
-                    <div class="gradation-line-red"></div>
                     <div>
                         <h3>東宝は、物語を舞台とスクリーンに宿すスタジオである。</h3>
-                        <p>東宝の作品は、いつの時代も<span class="underline-gold text-gold">「伝統・革新・体験」</span>を軸に展開されてきた。 <br>
+                        <p>東宝の作品は、いつの時代も<span class="underline-gold text-gold wide-text">「伝統・革新・体験」</span>を軸に展開されてきた。 <br>
                             戦後の黄金期には『ゴジラ』をはじめとする特撮映画で空想と現実の境界を越え、 <br>
                             <span class="bold">黒澤明</span>らの名監督が、世界に誇る日本映画の美学を築いていった。</p>
                         <p>やがて、帝国劇場を中心とした演劇事業では、宝塚歌劇や海外ミュージカルの上演を通じて、<br>
                             <span class="underline-blue">“観る”だけでなく“体験する”</span>物語の場を広げていく。 <br>
-                            <span class="text-blue">『ドラえもん』『名探偵コナン』</span>などのアニメ映画は、世代を超えて親しまれ、<br>
+                            ドラえもん』『名探偵コナン』などのアニメ映画は、世代を超えて親しまれ、<br>
                             東宝の語りは、スクリーンから家庭へ、そして世界へと広がっていった。</p>
                         <p>その演出の幅は、実写・アニメ・舞台・配信といった多様なメディアを横断しながらも、<br>
                             根底にあるのは、観客の心に残る“物語体験”へのこだわり。 <br>
-                            <span class="text-blue">静けさと迫力、余白と密度</span>—その両極を自在に操る<span class="bold">演出美</span>が、東宝の<span class="bold">世界観</span>を支えている。</p>
+                            <span class="text-blue">静けさと迫力、余白と密度</span>—その両極を自在に操る演出美が、東宝の世界観を支えている。</p>
                     </div>
                 </section>
                 <section id="japan-film-highlights">
-                    <div class="container">
+                    <div class="japan-wrapper">
                         <img src="images/japan-torii.svg" alt="鳥居">
-                        <h2>物語の軌跡</h2>
+                        <div class="title-container">
+                            <h2>物語の軌跡</h2>
+                            <div class="gradation-line-red"></div>
+                        </div>
                     </div>
-                    <div class="gradation-line-red"></div>
                     <!-- 1900年代 -->
                     <div class="era-1900s">
                         <div class="icon-title-flex">
@@ -89,11 +102,11 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『七人の侍』（1954）</h4>
-                                    <p>農民と侍の共闘を描いた傑作。<span class="bold">世界が“日本映画”を知った瞬間。</span></p>
+                                    <p>農民と侍の共闘を描いた傑作。<span class="bold text-gold">世界が“日本映画”を知った瞬間。</span></p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『隠し砦の三悪人』（1958）</h4>
-                                    <p>戦乱の中の脱出劇。<span class="underline-blue">スター・ウォーズにも影響</span>を与えた語りの原型。</p>
+                                    <p>戦乱の中の脱出劇。<br><span class="underline-blue">スター・ウォーズにも影響</span>を与えた語りの原型。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">特撮と寓話の誕生：ジャンルが立ち上がる</h3>
@@ -107,7 +120,7 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『AKIRA』（1988）</h4>
-                                    <p>崩壊寸前の都市に宿る光と影が、<span class="text-darkred">サイバーパンク</span>という夢の臨界を描き出す。</p>
+                                    <p>崩壊寸前の都市に宿る光と影が、<br><span class="text-darkred">サイバーパンク</span>という夢の臨界を描き出す。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『火垂るの墓』（1988）</h4>
@@ -118,7 +131,7 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『名探偵コナン 時計じかけの摩天楼』（1997）</h4>
-                                    <p>都市の爆破予告に挑むコナンの緊張感が、静かな構図と疾走感の対比で際立つ初期傑作。</p>
+                                    <p>都市の爆破予告に挑む。<br>コナンの緊張感が、静かな構図と疾走感の対比で際立つ初期傑作。</p>
                                 </li>
                             </ul>
                         </div>
@@ -141,14 +154,14 @@
                                 </li>
                                 <li>
                                     <h4 class="text-darkred large-letters">『ALWAYS 三丁目の夕日』（2005）</h4>
-                                    <p>昭和の街並みに宿る温もりが、<span class="bold">記憶の奥に眠る風景</span>をそっと呼び起こす。</p>
+                                    <p>昭和の街並みに宿る温もりが、<br><span class="bold">記憶の奥に眠る風景</span>をそっと呼び起こす。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">社会とサスペンスの交錯：静かな緊張と構造美</h3>
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『踊る大捜査線 THE MOVIE 2』（2003）</h4>
-                                    <p>都市の喧騒と人間模様が、群像劇としての緻密な構成を際立たせる。</p>
+                                    <p>都市の喧騒と人間模様が、<br>群像劇としての緻密な構成を際立たせる。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『容疑者Xの献身』（2008）</h4>
@@ -158,12 +171,12 @@
                             <h3 class="group-name">国民的キャラクターの劇場進化：感情の設計とジャンルの拡張</h3>
                             <ul>
                                 <li>
-                                    <h4 class="bold large-letters">『クレヨンしんちゃん 嵐を呼ぶ モーレツ！オトナ帝国の逆襲』（2001）</h4>
-                                    <p>懐かしさに浸る風景とその裏に潜む焦燥が、<span class="text-blue">過去と現在の狭間に揺れる感情</span>を呼び起こす。</p>
+                                    <h4 class="bold large-letters">『クレヨンしんちゃん 嵐を呼ぶ モーレツ！オトナ帝国の逆襲』（2001）</h4><br>
+                                    <p>懐かしさに浸る風景とその裏に潜む焦燥が、過去と現在の狭間に揺れる感情を呼び起こす。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『ドラえもん のび太の恐竜2006』（2006）</h4>
-                                    <p>原点回帰の冒険が、少年の<span class="text-blue bold">成長と別れ</span>を優しく描き出す。</p>
+                                    <p>原点回帰の冒険が、<br>少年の<span class="text-blue bold">成長と別れ</span>を優しく描き出す。</p>
                                 </li>
                             </ul>
                         </div>
@@ -193,11 +206,11 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『おおかみこどもの雨と雪』（2012）</h4>
-                                    <p>母と子の静かな闘いが、<span class="text-blue">自然と人間の境界</span>を優しく描く。</p>
+                                    <p>母と子の静かな闘いが、<br><span class="text-blue">自然と人間の境界</span>を優しく描く。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『そして父になる』（2013）</h4>
-                                    <p><span class="underline-blue">血か、時間か。</span>父性の揺らぎが、家族のかたちを問い直す。</p>
+                                    <p>血か、時間か。父性の揺らぎが、家族のかたちを問い直す。</p>
                                 </li>
                                 <li>
                                     <h4 class="text-blue large-letters">『海街diary』（2015）</h4>
@@ -207,7 +220,7 @@
                             <h3 class="group-name">シリーズの深化と都市の記号化：構造と感情の融合</h3>
                             <ul>
                                 <li>
-                                    <h4 class="bold large-letters">『シン・ゴジラ』（2016）</h4>
+                                    <h4 class="text-brown large-letters">『シン・ゴジラ』（2016）</h4>
                                     <p>情報と対策の奔流が、都市の脈動としてスクリーンに現れる。</p>
                                 </li>
                             </ul>
@@ -227,7 +240,7 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『シン・ウルトラマン』（2022）</h4>
-                                    <p><span class="bold">神話と人類の境界</span>が揺れる。ヒーローの存在が問い直される。</p>
+                                    <p><span class="bold">神話と人類の境界</span>が揺れる。<br>ヒーローの存在が問い直される。</p>
                                 </li>
                                 <li>
                                     <h4 class="text-darkred large-letters">『ゴジラ-1.0』（2023）</h4>
@@ -237,23 +250,23 @@
                             <h3 class="group-name">歴史と叙事詩の再構築：英雄譚の再定義</h3>
                             <ul>
                                 <li>
-                                    <h4 class="bold large-letters">『キングダム 運命の炎』（2023）</h4>
-                                    <p>戦火の中に宿る<span class="text-darkred">信念</span>が、英雄たちの物語を熱く燃え上がらせる。</p>
+                                    <h4 class="text-gold large-letters">『キングダム 運命の炎』（2023）</h4>
+                                    <p>戦火の中に宿る<span class="text-darkred">信念</span>が、<br>英雄たちの物語を熱く燃え上がらせる。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『ゴールデンカムイ』（2024）</h4>
-                                    <p><span class="bold">土地と民族</span>、記憶と欲望が交錯する。サバイバルの中に宿る叙事詩。</p>
+                                    <p><span class="text-brown">土地と民族</span>、記憶と欲望が交錯する。<br>サバイバルの中に宿る叙事詩。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">青春と再発見の物語：日常の中の静かな革命</h3>
                             <ul>
                                 <li>
                                     <h4 class="text-blue large-letters">『すずめの戸締まり』（2022）</h4>
-                                    <p>閉じられた扉の向こうにある<span class="text-blue">喪失と再生</span>。旅路が感情を解きほぐす。</p>
+                                    <p>閉じられた扉の向こうにある<span class="text-blue">喪失と再生</span>。<br>旅路が感情を解きほぐす。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『君たちはどう生きるか』（2023）</h4>
-                                    <p>少年の内面世界が、幻想と現実の狭間で静かに揺れる。</p>
+                                    <p>少年の内面世界が幻想と現実の狭間で静かに揺れる。</p>
                                 </li>
                             </ul>
                         </div>
@@ -279,5 +292,6 @@
                 </div>
             </div>
         </footer>
+    </div>
     </body>
 </html>

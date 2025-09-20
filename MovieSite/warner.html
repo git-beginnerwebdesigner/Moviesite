@@ -5,10 +5,17 @@
         <meta charset="utf-8">
         <meta name="description" content="ハリウッドの映画制作会社、ワーナーブラザースについて紹介するページです。">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Unica+One&display=swap" rel="stylesheet">
         <!-- Twitterカード -->
     </head>
     <body>
+    <div class="page-wrapper">
         <header>
             <img src="images/logotype.svg" alt="ロゴタイプ">
             <!-- pc用ナビ -->
@@ -21,26 +28,28 @@
             </nav>
         </header>
         <main>
-            <article>
+            <article class="center">
                 <section id="main-visual">
                     <div>
                         <img src="images/hollywood-common.png" alt="夕焼けにヤシの木">
-                        <div class="main-title">
+                        <div class="warner-title">
                             <h1>Warner Bros</h1>
                         </div>
                     </div>
                 </section>
                 <section id="hollywood-history">
-                    <div class="container">
+                    <div class="hollywood-wrapper">
                         <img src="images/film.svg" alt="フィルムリール">
-                        <h2>Film Highlights</h2>
+                        <div class="title-container">
+                            <h2>History of the company</h2>
+                            <div class="gradation-line-gold"></div>
+                        </div>
                     </div>
-                    <div class="gradation-line-gold"></div>
                     <div>
                         <h3>物語を問い続けるスタジオ</h3>
                         <p>1927年、世界初のトーキー映画<span class="text-gold bold">『ジャズ・シンガー』</span>が公開されると、<br>
                             映像は“音”を得て、語りはより深く、複雑な表現へと進化していった。</p>
-                        <p>その後も<span class="underline-blue">『カサブランカ』</span>や<span class="underline-blue">『2001年宇宙の旅』</span>など、
+                        <p>その後も『カサブランカ』や『2001年宇宙の旅』など、
                             時代と思想を映す作品が次々と生まれ、<br>ワーナーは<span class="underline-blue large-letters">“問いかける映画”</span>の象徴となっていく。</p>
                         <p>2000年代以降は<span class="small-letters">DCユニバース、ハリー・ポッター、クリストファー・ノーラン作品</span>など、<br>
                             構造的で思想性の高い語りがスタジオの核となり、都市と人間の関係を描き続けている。</p>
@@ -50,11 +59,13 @@
                     </div>
                 </section>
                 <section id="themes-style">
-                    <div class="container">
+                    <div class="hollywood-wrapper">
                         <img src="images/film.svg" alt="フィルムリール">
-                        <h2>Themes & Style</h2>
+                        <div class="title-container">
+                            <h2>Themes & Style</h2>
+                            <div class="gradation-line-gold"></div>
+                        </div>
                     </div>
-                    <div class="gradation-line-gold"></div>
                     <div>
                         <h3>ワーナー・ブラザースは、問いと思想を物語に変えるスタジオである。</h3>
                         <p>ワーナーの語りは、時代とともに<span class="text-gold underline-gold wide-text">「正義・葛藤・都市」</span>を軸に深化してきた。<br>
@@ -68,11 +79,12 @@
                     </div>
                 </section>
                 <section id="film-highlights">
-                    <div class="container">
+                    <div class="hollywood-wrapper">
                         <img src="images/film.svg" alt="フィルムリール">
-                        <h2>Film Highlights</h2>
-                    </div>
-                    <div class="gradation-line-gold"></div>
+                        <div class="title-container">
+                            <h2>Film Highlights</h2>
+                            <div class="gradation-line-gold"></div>
+                        </div>
                     </div>
                     <!-- 1900年代 -->
                     <div class="era-1900s">
@@ -88,7 +100,7 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『ジャズ・シンガー』（1927）</h4>
-                                    <p>世界初のトーキー映画。映像が<span class="text-blue">“語る”</span>力を手に入れた瞬間。</p>
+                                    <p>世界初のトーキー映画。<br>映像が“語る”力を手に入れた瞬間。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『カサブランカ』（1942）</h4>
@@ -99,10 +111,10 @@
                             <ul>
                                 <li>
                                     <h4 class="text-blue bold large-letters">『2001年宇宙の旅』（1968）</h4>
-                                    <p>時間、<span class="text-blue">知性</span>、進化。語りが哲学に触れた瞬間。</p>
+                                    <p>時間、知性、進化。語りが哲学に触れた瞬間。</p>
                                 </li>
                                 <li>
-                                    <h4 class="text-darkred large-letters">『シャイニング』（1980）</h4>
+                                    <h4 class="large-letters">『シャイニング』（1980）</h4>
                                     <p>空間と心理の歪みが、沈黙の中で<span class="text-darkred">“静かな狂気”</span>を描き出す。</p>
                                 </li>
                             </ul>
@@ -114,7 +126,7 @@
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『マトリックス』（1999）</h4>
-                                    <p>現実と仮想の境界が崩れる。<span class="bold">構造そのもの</span>が語りの主役になる瞬間。</p>
+                                    <p>現実と仮想の境界が崩れる。<br>構造そのものが語りの主役になる瞬間。</p>
                                 </li>
                             </ul>
                         </div>
@@ -133,7 +145,7 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『アイ・アム・レジェンド』（2007）</h4>
-                                    <p>崩壊した都市に残された<span class="text-blue">“人間性”</span>の問いを浮かび上がらせる。</p>
+                                    <p>崩壊した都市に残された<span class="text-darkred">“人間性”</span>の<br>問いを浮かび上がらせる。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『ダークナイト』（2008）</h4>
@@ -144,22 +156,22 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『マトリックス リローデッド』（2003）</h4>
-                                    <p>自由と運命の<span class="bold">分岐点。</span>語りがシステムの深層に潜る。</p>
+                                    <p>自由と運命の<span class="bold">分岐点。<br></span>語りがシステムの深層に潜る。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『コンスタンティン』（2005）</h4>
-                                    <p>天使と悪魔、信仰と罪。語りが宗教的構造に触れる都市幻想。</p>
+                                    <p>天使と悪魔、信仰と罪。<br>語りが宗教的構造に触れる都市幻想。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">幻想と世界観の拡張：ファンタジーが思想を帯びる</h3>
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『ハリー・ポッターと賢者の石』（2001）</h4>
-                                    <p>魔法世界への入口。語りが<span class="bold">“現実の外側”</span>に広がる瞬間。</p>
+                                    <p>魔法世界への入口。<br>語りが<span class="bold">“現実の外側”</span>に広がる瞬間。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『ロード・オブ・ザ・リング／王の帰還』（2003）</h4>
-                                    <p>運命と選択の叙事詩。<span class="text-gold">壮大な物語</span>が思想を帯びて完結する瞬間。</p>
+                                    <p>運命と選択の叙事詩。<br><span class="text-gold">壮大な物語</span>が思想を帯びて完結する瞬間。</p>
                                 </li>
                             </ul>
                         </div>
@@ -193,18 +205,18 @@
                                 </li>
                                 <li>
                                     <h4 class="text-gold large-letters">『42〜世界を変えた男〜』（2013）</h4>
-                                    <p>沈黙の中に宿る<span class="text-gold">“尊厳”</span>差別と希望の語りを支える。</p>
+                                    <p>沈黙の中に宿る差別と希望の語りを支える。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">ヒーローの再構築：倫理と選択の物語</h3>
                             <ul>
                                 <li>
-                                    <h4 class="bold large-letters">『マン・オブ・スティール』（2013）</h4>
-                                    <p>神話ではなく選択。<span class="bold">倫理</span>がヒーローを再定義する。</p>
+                                    <h4 class="text-darkred large-letters">『マン・オブ・スティール』（2013）</h4>
+                                    <p>倫理がヒーローを再定義した習慣</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『ジャスティス・リーグ』（2017）</h4>
-                                    <p>孤独と連帯が交差しヒーローたちが“構造の外側”で繋がる瞬間。</p>
+                                    <p>孤独と連帯が交差しヒーローたちが<br>“構造の外側”で繋がる瞬間。</p>
                                 </li>
                             </ul>
                         </div>
@@ -222,12 +234,12 @@
                             <h3 class="group-name">感覚と余白の語り：沈黙が問いを包み込む</h3>
                             <ul>
                                 <li>
-                                    <h4 class="bold large-letters">『DUNE／デューン 砂の惑星』（2021）</h4>
-                                    <p>砂と静寂の叙事詩。語りが<span class="text-blue">“余白と予兆”</span>で世界を編み直す。</p>
+                                    <h4 class="text-brown large-letters">『DUNE／デューン 砂の惑星』（2021）</h4>
+                                    <p>砂と静寂の叙事詩。<br>語りが“余白と予兆”で世界を編み直す。</p>
                                 </li>
                                 <li>
                                     <h4 class="bold large-letters">『バービー』（2023）</h4>
-                                    <p>理想像と現実のずれが、記号の仮面を剥がし、自我の輪郭を浮かび上がらせる。</p>
+                                    <p>理想像と現実のずれが、記号の仮面を剥がし、 <br>自我の輪郭を浮かび上がらせる。</p>
                                 </li>
                             </ul>
                             <h3 class="group-name">分断と再接続の構造：語りが境界を越える</h3>
@@ -245,11 +257,11 @@
                             <ul>
                                 <li>
                                     <h4 class="bold large-letters">『トムとジェリー』（2021）</h4>
-                                    <p><span class="bold">“動きの中に感情”</span>が宿り、記号的キャラクターが身体性を語り直す。</p>
+                                    <p><span class="bold">“動きの中に感情”</span>が宿り、<br>記号的キャラクターが身体性を語り直す。</p>
                                 </li>
                                 <li>
-                                    <h4 class="bold large-letters">『ファンタスティック・ビーストとダンブルドアの秘密』（2022）</h4>
-                                    <p>魔法と政治が交差し、<span class="text-blue">“幻想の再編”</span>が語りの舞台を塗り替える。</p>
+                                    <h4 class="bold large-letters">『ファンタスティック・ビーストとダンブルドアの秘密』（2022）</h4><br>
+                                    <p>魔法と政治が交差し、<span class="text-green">“幻想の再編”</span>が語りの舞台を塗り替える。</p>
                                 </li>
                             </ul>
                         </div>
@@ -275,5 +287,6 @@
                 </div>
             </div>
         </footer>
+    </div>
     </body>
 </html>
